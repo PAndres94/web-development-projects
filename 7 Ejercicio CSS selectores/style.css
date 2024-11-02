@@ -1,7 +1,51 @@
+/* Elementos originales corregidos */
 ol {
   margin-left: -40px;
   margin-top: -20px;
   list-style-position: inside;
 }
 
-/* Write your CSS below, don't change the rules above. */
+p {
+  color: rgb(255, 0, 0); /* Rojo para párrafos */
+}
+
+.note {
+  font-size: 20px; /* Aumenta el tamaño del texto */
+}
+
+#id-selector-demo {
+  color: rgb(19, 0, 128); /* Azul oscuro */
+}
+
+li[value="4"] {
+  color: rgb(13, 156, 101); /* Azul claro */
+}
+
+* {
+  text-align: center; /* Centrado para todos los elementos */
+}
+
+.red-text {
+  color: rgb(13, 155, 43);
+}
+
+h1:nth-of-type(2) {
+  color: rgb(255, 153, 0);
+}
+
+#blue-text {
+  color: blue;
+}
+
+.hover-text:hover {
+  color: orange;
+}
+
+.first-line::first-line {
+  font-weight: bold;
+}
+
+.before-text::before {
+  content: "Nota: ";
+  font-weight: bold;
+}
